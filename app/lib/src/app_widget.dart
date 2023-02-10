@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_modular/flutter_modular.dart';
 import 'package:listinha/src/home/home_page.dart';
 
 import 'configuration/configuration_page.dart';
@@ -10,17 +11,14 @@ class AppWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return MaterialApp.router(
       title: 'Listinha',
       debugShowCheckedModeBanner: false,
       themeMode: ThemeMode.light,
       theme: lightTheme,
       darkTheme: darkTheme,
-      routes: {
-        '/': (context) => const HomePage(),
-        '/config': (context) => const ConfigurationPage(),
-        '/edit': (context) => const EditTaskBoardPage(),
-      },
+      routerDelegate: Modular.routerDelegate,
+      routeInformationParser: Modular.routeInformationParser,
     );
   }
 }

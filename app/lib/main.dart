@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_modular/flutter_modular.dart';
 
 import 'src/app_widget.dart';
+import 'src/shared/app_module.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,6 +13,10 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const AppWidget();
+    Modular.setInitialRoute('/home/');
+    return ModularApp(
+      module: AppModule(),
+      child: const AppWidget(),
+    );
   }
 }
