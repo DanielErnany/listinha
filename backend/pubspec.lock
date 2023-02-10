@@ -43,6 +43,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.2.1"
+  charcode:
+    dependency: transitive
+    description:
+      name: charcode
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.3.1"
   collection:
     dependency: transitive
     description:
@@ -120,13 +127,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.6.5"
-  lints:
-    dependency: "direct dev"
-    description:
-      name: lints
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "1.0.1"
   logging:
     dependency: transitive
     description:
@@ -169,6 +169,20 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.3.0"
+  modular_core:
+    dependency: transitive
+    description:
+      name: modular_core
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.0.3+1"
+  modular_interfaces:
+    dependency: transitive
+    description:
+      name: modular_interfaces
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.0.2"
   node_preamble:
     dependency: transitive
     description:
@@ -197,6 +211,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.5.1"
+  postgresql2:
+    dependency: "direct main"
+    description:
+      name: postgresql2
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.4"
   pub_semver:
     dependency: transitive
     description:
@@ -204,6 +225,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.1.3"
+  redis:
+    dependency: "direct main"
+    description:
+      name: redis
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "3.1.0"
   result_dart:
     dependency: "direct main"
     description:
@@ -211,13 +239,27 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.5"
-  shelf:
+  rikulo_commons:
     dependency: transitive
+    description:
+      name: rikulo_commons
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "5.2.1"
+  shelf:
+    dependency: "direct main"
     description:
       name: shelf
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.4.0"
+  shelf_modular:
+    dependency: "direct main"
+    description:
+      name: shelf_modular
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.1.0"
   shelf_packages_handler:
     dependency: transitive
     description:
