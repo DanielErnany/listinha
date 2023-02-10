@@ -209,13 +209,6 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
-  flutter_lints:
-    dependency: "direct dev"
-    description:
-      name: flutter_lints
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "2.0.1"
   flutter_modular:
     dependency: "direct main"
     description:
@@ -235,6 +228,13 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutterando_analysis:
+    dependency: "direct dev"
+    description:
+      name: flutterando_analysis
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.0.2"
   frontend_server_client:
     dependency: transitive
     description:
@@ -298,13 +298,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "4.8.0"
-  lints:
-    dependency: transitive
-    description:
-      name: lints
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "2.0.1"
   logging:
     dependency: transitive
     description:
