@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:listinha/src/shared/widgets/user_image_button.dart';
 
+import 'widgets/custom_drawer.dart';
+
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
 
@@ -21,6 +23,7 @@ class _HomePageState extends State<HomePage> {
           ),
         ],
       ),
+      drawer: const CustomDrawer(),
       body: Center(
         child: Column(
           children: [
